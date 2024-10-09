@@ -15,6 +15,7 @@ function startGame(){
  playRound(HC,CC);
 
 }
+//to allow the commit
 
 let getOption =(option) => {
   if (option === 'paper'){
