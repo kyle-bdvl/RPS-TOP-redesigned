@@ -88,3 +88,6 @@ function start() {
 
 //adding some extra comments to see if the nejahsdjhxt commit works 
 //fixing the git push origin main --force
+
+
+//testing for a normal git push 
