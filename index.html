@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Redesigned RPS</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <button id="Start" onclick="startGame()">Start</button>
+    <div class="player"> 
+      <h1>Player</h1>
+      <div class="buttonArea">
+        <button class="playerButton" onclick="getOption('rock')">Rock</button>
+        <button class="playerButton" onclick="getOption('paper')">Paper</button>
+        <button class="playerButton" onclick="getOption('scissors')">Scissors</button>
+      </div>
+    </div>
+
+    <div class="computer">
+      <h1>Computer</h1>
+      <input type="text" id="display">
+    </div>
+
+    <div class="gameStatus">
+      <h1>Game Status</h1>
+      <div id="ComputerPoints">5</div>
+      <div id="PlayerPoints">6</div>
+    </div>
+
+  </div>
+
+
+
+  <script src="calc.js"></script>
+</body>
+</html>

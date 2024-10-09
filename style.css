@@ -1,0 +1,58 @@
+body{ 
+  height: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: center; /* Horizontal centering */
+  align-items: center; /* Vertical centering */
+  font-family:'Times New Roman', Times, serif;
+  background-color: rgb(87, 88, 88);
+
+}
+
+.container{
+  background-color: rgb(193, 227, 250);
+  display:flex;
+  height:400px;
+  width: 300px;
+  flex-wrap: wrap;
+  flex-direction: column;
+  
+  justify-content: center;
+  align-items: center;
+}
+
+.player{
+  text-align: center;
+}
+
+.buttonArea{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  gap:14px;
+  
+}
+
+.playerButton{
+  border-radius: 5px;
+  background-color: rgb(160, 235, 235);
+  font-size:25px;
+  
+}
+
+.computer{
+  text-align: center;
+  display: inline-block;
+}
+
+#display{ 
+  border-radius: 5px;
+  font-size: 25px;
+  width:180px;
+  background-color: rgb(255, 175, 175);
+}
+
+.gameStatus{
+  text-align: center;
+  display:inline-block
+}
