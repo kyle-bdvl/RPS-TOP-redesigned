@@ -3,13 +3,14 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Redesigned RPS</title>
+  <title>Document</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <div class="container">
-    <button id="Start" onclick="startGame()">Start</button>
+    <button id="start" onclick="start()">Start</button>
     <div class="player"> 
+      
       <h1>Player</h1>
       <div class="buttonArea">
         <button class="playerButton" onclick="getOption('rock')">Rock</button>
@@ -20,7 +21,7 @@
 
     <div class="computer">
       <h1>Computer</h1>
-      <input type="text" id="display">
+      <input type="text" id="display" disabled>
     </div>
 
     <div class="gameStatus">
@@ -31,8 +32,9 @@
 
   </div>
 
+  
 
 
-  <script src="calc.js"></script>
+  <script src="Design.js"></script>
 </body>
 </html>

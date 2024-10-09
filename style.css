@@ -56,3 +56,12 @@ body{
   text-align: center;
   display:inline-block
 }
+
+#start{
+  height:40px;
+  width:120px;
+  background-color: green;
+  border-radius: 6px;
+  font-size: 20px;
+  color:white;
+}
