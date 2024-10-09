@@ -85,3 +85,5 @@ function start() {
   playRound(humanChoice, computerChoice); // Play the round
 
 }
+
+//adding some extra comments to see if the next commit works 
