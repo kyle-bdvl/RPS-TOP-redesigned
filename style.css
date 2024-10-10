@@ -4,16 +4,20 @@ body{
   display: flex;
   justify-content: center; /* Horizontal centering */
   align-items: center; /* Vertical centering */
-  font-family:'Times New Roman', Times, serif;
-  background-color: rgb(87, 88, 88);
+  font-family:'Poppins';
+  background-color: rgb(72, 76, 75);
+  color:antiquewhite;
+  
 
 }
 
 .container{
-  background-color: rgb(193, 227, 250);
+  margin-top:20px;
+  border-radius: 20px;
+  background-color: rgb(14, 149, 162);
   display:flex;
-  height:400px;
-  width: 300px;
+  height:450px;
+  width: 350px;
   flex-wrap: wrap;
   flex-direction: column;
   
@@ -35,7 +39,7 @@ body{
 
 .playerButton{
   border-radius: 5px;
-  background-color: rgb(160, 235, 235);
+  background-color: rgb(241, 175, 96);
   font-size:25px;
   
 }
@@ -49,7 +53,7 @@ body{
   border-radius: 5px;
   font-size: 25px;
   width:180px;
-  background-color: rgb(255, 175, 175);
+  background-color: rgb(132, 125, 106);
 }
 
 .gameStatus{
