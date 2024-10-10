@@ -77,6 +77,17 @@ body{
   cursor: pointer;
 }
 
+#reset{
+  height:40px;
+  width:120px;
+  font-weight:500;
+  background-color: red;
+  border-radius: 6px;
+  font-size: 20px;
+  color:white;
+  cursor: pointer;
+}
+
 /* temporary classes for hover and selection effects */
 .hover{
   background-color: rgb(187, 255, 0);
