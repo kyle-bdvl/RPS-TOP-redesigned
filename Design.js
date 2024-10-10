@@ -121,3 +121,17 @@ function start() {
   playRound(humanChoice, computerChoice); // Play the round
 
 }
+
+function restart(){
+  display.value=null;
+  humanScore.textContent = 0;
+  computerScore.textContent = 0;
+  computerChoice=null;
+  for(let i=0; i<playerButtons.length; i++){
+    if(playerButtons[i].classList.contains("selected")){
+      playerButtons[i].classList.remove("selected");
+      break; //to break out of the loop for added efficiency
+    }
+  }
+
+}
