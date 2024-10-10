@@ -1,16 +1,25 @@
+*{
+  font-family: 'Poppins';
+}
+
+
 body{ 
   height: 100%;
   margin: 0;
   display: flex;
   justify-content: center; /* Horizontal centering */
   align-items: center; /* Vertical centering */
-  font-family:'Times New Roman', Times, serif;
-  background-color: rgb(87, 88, 88);
+  font-family:'Poppins';
+  background-color: rgb(72, 76, 75);
+  color:antiquewhite;
+  
 
 }
 
 .container{
-  background-color: rgb(193, 227, 250);
+  margin-top:20px;
+  border-radius: 20px;
+  background-color: rgb(14, 149, 162);
   display:flex;
   height:650px;
   width: 300px;
@@ -35,7 +44,7 @@ body{
 
 .playerButton{
   border-radius: 5px;
-  background-color: rgb(160, 235, 235);
+  background-color: rgb(241, 175, 96);
   font-size:25px;
   /* added cursor: pointer */
   cursor: pointer;
@@ -50,9 +59,6 @@ body{
   border-radius: 5px;
   font-size: 25px;
   width:180px;
-  /* Added some extra rules (height and margin) */
-  height:30px;
-  margin: 0;
   background-color: rgb(255, 175, 175);
 }
 
